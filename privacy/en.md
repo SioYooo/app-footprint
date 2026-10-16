@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 # App Footprint — Privacy policy
 
 Publisher: SioYoo. Support and questions: https://github.com/SioYooo/app-footprint/issues

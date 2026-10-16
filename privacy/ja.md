@@ -1,3 +1,7 @@
+---
+lang: ja
+---
+
 # App Footprint — プライバシーポリシー
 
 発行者：SioYoo。サポートとお問い合わせ：https://github.com/SioYooo/app-footprint/issues

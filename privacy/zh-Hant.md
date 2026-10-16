@@ -1,3 +1,7 @@
+---
+lang: zh-Hant
+---
+
 # App Footprint — 隱私權政策
 
 發布者：SioYoo。支援與問題：https://github.com/SioYooo/app-footprint/issues

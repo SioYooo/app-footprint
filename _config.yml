@@ -1,2 +1,9 @@
 title: App Footprint
-description: A local macOS diagnostic assistant — support and privacy policy
+description: See which apps keep working in the background on your Mac and what they use. Local diagnostics for macOS, no account.
+url: https://sioyooo.github.io
+baseurl: /app-footprint
+lang: en
+image: /assets/background-en.jpg
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

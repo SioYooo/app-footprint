@@ -1,3 +1,7 @@
+---
+lang: zh-Hans
+---
+
 # App Footprint — 隐私政策
 
 发布者：SioYoo。支持与问题：https://github.com/SioYooo/app-footprint/issues

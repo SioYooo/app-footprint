@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+{% if page.landing %}
+    <link rel="alternate" hreflang="en" href="{{ "/" | absolute_url }}">
+    <link rel="alternate" hreflang="zh-Hans" href="{{ "/zh-Hans/" | absolute_url }}">
+    <link rel="alternate" hreflang="zh-Hant" href="{{ "/zh-Hant/" | absolute_url }}">
+    <link rel="alternate" hreflang="ja" href="{{ "/ja/" | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ "/" | absolute_url }}">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "App Footprint",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "macOS 14 or later",
+      "inLanguage": {{ page.lang | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }},
+      "image": {{ page.image | absolute_url | jsonify }},
+      "installUrl": "https://apps.apple.com/app/app-footprint/id6809305281",
+      "author": { "@type": "Person", "name": "SioYoo" },
+      "offers": [
+        { "@type": "Offer", "name": "Download", "price": "0", "priceCurrency": "USD" },
+        { "@type": "Offer", "name": "Lifetime (in-app purchase)", "price": "4.99", "priceCurrency": "USD" },
+        { "@type": "Offer", "name": "Yearly access (in-app subscription, 14-day free trial)", "price": "1.99", "priceCurrency": "USD" }
+      ]
+    }
+    </script>
+{% endif %}
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      {% unless page.landing %}<p><a href="{{ "/" | relative_url }}">App Footprint</a></p>{% endunless %}
+      {{ content }}
+    </div>
+  </body>
+</html>
