@@ -59,6 +59,8 @@ What it leaves out: labels are reverse-DNS names, not app names, and there is no
 
 ![The Background page in App Footprint, listing Google Chrome, macOS, Adobe, Dropbox, node and Microsoft AutoUpdate with their components, CPU and memory]({{ "/assets/background-en.jpg" | relative_url }})
 
+*Sample screenshot: the apps are real, the numbers are made up for illustration.*
+
 It decides which app a process belongs to from evidence: the process's own app, the app bundle its program lives in, or a parent process that belongs to an app. When none of these holds, it marks the row **Not identified** instead of guessing from the name. It keeps a record on your Mac, so after a slowdown you can look back at which apps were busy at the time.
 
 What it leaves out: combined memory adds up each process, so memory they share is counted more than once. The energy figure is estimated from CPU time, not measured in watts. The App Store version can't read temperatures or fan speeds; the optional, free [App Footprint Sensors]({{ "/" | relative_url }}#support) adds them.

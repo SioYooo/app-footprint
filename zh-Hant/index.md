@@ -22,6 +22,8 @@ image: /assets/background-zh-Hant.jpg
 
 ![App Footprint 的「背景」頁面：Google Chrome、macOS、Adobe、Dropbox、node 和 Microsoft AutoUpdate，每個 App 底下有幾個背景元件、CPU 和記憶體](../assets/background-zh-Hant.jpg)
 
+*示意圖：App 是真實的，數字是為了示範編的。*
+
 ## 能做什麼
 
 - **依 App 查看背景。**「背景」頁面列出還有東西在執行的 App，例如 Chrome、Dropbox、Adobe：每個 App 有幾個元件在跑，哪些在你關掉主視窗後還在工作。

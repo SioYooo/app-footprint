@@ -22,6 +22,8 @@ English · [简体中文](zh-Hans/) · [繁體中文](zh-Hant/) · [日本語](j
 
 ![The Background page in App Footprint: Google Chrome, macOS, Adobe, Dropbox, node and Microsoft AutoUpdate, each with its background components, CPU and memory](assets/background-en.jpg)
 
+*Sample screenshot: the apps are real, the numbers are made up for illustration.*
+
 ## What it does
 
 - **Background activity, by app.** The Background page lists the apps that still have something running, such as Chrome, Dropbox or Adobe, with how many components each one has and which kept working after you closed the main window.

@@ -22,6 +22,8 @@ image: /assets/background-zh-Hans.jpg
 
 ![App Footprint 的「后台」页面：Google Chrome、macOS、Adobe、Dropbox、node 和 Microsoft AutoUpdate，每个 App 下有几个后台组件、CPU 和内存](../assets/background-zh-Hans.jpg)
 
+*示意图：App 是真实的，数字是为演示编的。*
+
 ## 能做什么
 
 - **按 App 看后台。**「后台」页面列出还有东西在运行的 App，比如 Chrome、Dropbox、Adobe：每个 App 有几个组件在跑，哪些在你关掉主窗口后还在工作。

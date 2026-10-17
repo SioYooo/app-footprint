@@ -60,6 +60,8 @@ launchctl list
 
 ![App Footprint 的「后台」页面：Google Chrome、macOS、Adobe、Dropbox、node 和 Microsoft AutoUpdate，每个 App 下有几个后台组件、CPU 和内存]({{ "/assets/background-zh-Hans.jpg" | relative_url }})
 
+*示意图：App 是真实的，数字是为演示编的。*
+
 它按证据判断进程属于哪个 App：进程自己就是那个 App、程序文件在那个 App 的包里，或者父进程属于那个 App。都对不上时，它标「未能确认」，不按名字去猜。记录保存在你的 Mac 上，卡顿过去以后也能回看当时哪些 App 比较忙。
 
 看不到的：合计内存是把各进程加起来，进程之间共享的内存会被重复计算。能耗按 CPU 时间估算，不是实测瓦数。App Store 版读不到温度和风扇转速，可以另外装免费的 [App Footprint Sensors]({{ "/zh-Hans/" | relative_url }}#支持)。

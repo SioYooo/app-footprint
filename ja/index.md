@@ -22,6 +22,8 @@ image: /assets/background-ja.jpg
 
 ![App Footprintの「バックグラウンド」ページ。Google Chrome、macOS、Adobe、Dropbox、node、Microsoft AutoUpdateが、それぞれのバックグラウンド構成要素、CPU、メモリとともに並んでいる](../assets/background-ja.jpg)
 
+*イメージ画像：Appは実在のものですが、数値は説明用の架空のものです。*
+
 ## できること
 
 - **Appごとに見るバックグラウンド。**「バックグラウンド」ページには、まだ何かが動いているAppが並びます。Chrome、Dropbox、Adobeなど、Appごとに動いている構成要素の数と、メインウインドウを閉じたあとも動き続けているものがわかります。
