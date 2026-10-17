@@ -1,5 +1,6 @@
 ---
 lang: zh-Hans
+home: /zh-Hans/
 ---
 
 # App Footprint — 隐私政策

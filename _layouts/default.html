@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+{% if page.alternates %}
+{% for alt in page.alternates %}
+    <link rel="alternate" hreflang="{{ alt[0] }}" href="{{ alt[1] | absolute_url }}">
+{% endfor %}
+    <link rel="alternate" hreflang="x-default" href="{{ page.alternates.en | absolute_url }}">
+{% endif %}
 {% if page.landing %}
-    <link rel="alternate" hreflang="en" href="{{ "/" | absolute_url }}">
-    <link rel="alternate" hreflang="zh-Hans" href="{{ "/zh-Hans/" | absolute_url }}">
-    <link rel="alternate" hreflang="zh-Hant" href="{{ "/zh-Hant/" | absolute_url }}">
-    <link rel="alternate" hreflang="ja" href="{{ "/ja/" | absolute_url }}">
-    <link rel="alternate" hreflang="x-default" href="{{ "/" | absolute_url }}">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -35,7 +36,7 @@
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
-      {% unless page.landing %}<p><a href="{{ "/" | relative_url }}">App Footprint</a></p>{% endunless %}
+      {% unless page.landing %}<p><a href="{{ page.home | default: "/" | relative_url }}">App Footprint</a></p>{% endunless %}
       {{ content }}
     </div>
   </body>

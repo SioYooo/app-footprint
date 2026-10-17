@@ -1,5 +1,6 @@
 ---
 lang: zh-Hant
+home: /zh-Hant/
 ---
 
 # App Footprint — 隱私權政策

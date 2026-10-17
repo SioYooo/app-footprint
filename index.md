@@ -4,6 +4,11 @@ description: App Footprint groups background helpers, updaters and sync services
 lang: en
 locale: en_US
 landing: true
+alternates:
+  en: /
+  zh-Hans: /zh-Hans/
+  zh-Hant: /zh-Hant/
+  ja: /ja/
 image: /assets/background-en.jpg
 ---
 
@@ -28,7 +33,7 @@ English · [简体中文](zh-Hans/) · [繁體中文](zh-Hant/) · [日本語](j
 
 ### Why is an app still using CPU after I closed its window?
 
-On a Mac, closing the last window often leaves the app running until you quit it. Many apps also run separate helper processes, such as updaters, sync services and browser helpers, which can keep working after the main app is gone. Activity Monitor shows these processes one by one; App Footprint groups the ones it can identify under the app they belong to.
+On a Mac, closing the last window often leaves the app running until you quit it. Many apps also run separate helper processes, such as updaters, sync services and browser helpers, which can keep working after the main app is gone. Activity Monitor's CPU and Memory tabs list these processes one by one (its Energy tab groups some of them under their app); App Footprint groups the ones it can identify under the app they belong to and keeps a record.
 
 ### Does App Footprint upload my data?
 
@@ -40,7 +45,7 @@ No. It does not ask for Full Disk Access or Accessibility. If you use Storage an
 
 ### How is it different from Activity Monitor?
 
-Activity Monitor lists processes. App Footprint names the app each process belongs to when it can, keeps a history so you can look back after a slowdown, and walks through possible causes with the evidence for each.
+Activity Monitor shows what is running right now; its Energy tab groups some processes under their app. App Footprint names the app each process belongs to when it can, keeps a history so you can look back after a slowdown, and walks through possible causes with the evidence for each.
 
 ### Is it a cleaner or an antivirus?
 
@@ -53,6 +58,12 @@ The app is free to download. Yearly access (USD 1.99 in the United States) start
 ### Does it show temperatures and fan speeds?
 
 The App Store version cannot read them inside its sandbox. The optional, free App Footprint Sensors app adds temperatures, fan speeds and per-process disk activity (see Support below).
+
+## Guides
+
+- [How to see what's running in the background on your Mac](guides/see-background-apps-mac/)
+- [What are the Helper processes in Activity Monitor?](guides/helper-processes-activity-monitor/)
+- [Mac fan running with no apps open? How to find what's using the CPU](guides/mac-fan-running-no-apps/)
 
 ## Support
 

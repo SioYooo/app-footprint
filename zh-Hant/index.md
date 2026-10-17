@@ -4,6 +4,11 @@ description: App Footprint 把背景的 Helper、更新程式和同步服務歸�
 lang: zh-Hant
 locale: zh_TW
 landing: true
+alternates:
+  en: /
+  zh-Hans: /zh-Hans/
+  zh-Hant: /zh-Hant/
+  ja: /ja/
 image: /assets/background-zh-Hant.jpg
 ---
 
@@ -28,7 +33,7 @@ image: /assets/background-zh-Hant.jpg
 
 ### 為什麼 App 關掉視窗以後還在佔用 CPU？
 
-在 Mac 上，關掉最後一個視窗往往不等於結束 App，按 ⌘Q 才會結束。另外，很多 App 會另外執行 Helper 程序，例如更新程式、同步服務、瀏覽器的輔助程序，主 App 結束後它們還可能繼續工作。「活動監視器」只能一個個列出這些程序，App Footprint 會把能辨識的歸到所屬的 App 底下。
+在 Mac 上，關掉最後一個視窗往往不等於結束 App，按 ⌘Q 才會結束。另外，很多 App 會另外執行 Helper 程序，例如更新程式、同步服務、瀏覽器的輔助程序，主 App 結束後它們還可能繼續工作。「活動監視器」的「CPU」和「記憶體」標籤頁把這些程序一個個列出來（「能耗」標籤頁會把一部分歸到 App 底下），App Footprint 會把能辨識的歸到所屬的 App 底下，並保留紀錄。
 
 ### App Footprint 會上傳我的資料嗎？
 
@@ -40,7 +45,7 @@ image: /assets/background-zh-Hant.jpg
 
 ### 和「活動監視器」有什麼不同？
 
-「活動監視器」列的是程序。App Footprint 盡量說出每個程序屬於哪個 App，保留歷史紀錄讓你在卡頓之後還能回看，並把可能的原因和對應的證據一條條列出來。
+「活動監視器」顯示的是此刻在執行的程序，「能耗」標籤頁會把一部分程序歸到 App 底下。App Footprint 盡量說出每個程序屬於哪個 App，保留歷史紀錄讓你在卡頓之後還能回看，並把可能的原因和對應的證據一條條列出來。
 
 ### 它是清理軟體或防毒軟體嗎？
 

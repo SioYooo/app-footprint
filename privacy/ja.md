@@ -1,5 +1,6 @@
 ---
 lang: ja
+home: /ja/
 ---
 
 # App Footprint — プライバシーポリシー

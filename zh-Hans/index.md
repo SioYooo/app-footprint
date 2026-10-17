@@ -4,6 +4,11 @@ description: App Footprint 把后台的 Helper、更新程序和同步服务归�
 lang: zh-Hans
 locale: zh_CN
 landing: true
+alternates:
+  en: /
+  zh-Hans: /zh-Hans/
+  zh-Hant: /zh-Hant/
+  ja: /ja/
 image: /assets/background-zh-Hans.jpg
 ---
 
@@ -28,7 +33,7 @@ image: /assets/background-zh-Hans.jpg
 
 ### 为什么 App 关掉窗口以后还在占 CPU？
 
-在 Mac 上，关掉最后一个窗口往往不等于退出 App，按 ⌘Q 才会退出。另外，很多 App 会单独运行 Helper 进程，比如更新程序、同步服务、浏览器的辅助进程，主 App 退出后它们还可能继续工作。「活动监视器」只能一个个列出这些进程，App Footprint 会把能识别的归到所属的 App 下面。
+在 Mac 上，关掉最后一个窗口往往不等于退出 App，按 ⌘Q 才会退出。另外，很多 App 会单独运行 Helper 进程，比如更新程序、同步服务、浏览器的辅助进程，主 App 退出后它们还可能继续工作。「活动监视器」的「CPU」和「内存」标签页把这些进程一个个列出来（「能耗」标签页会把一部分归到 App 下面），App Footprint 会把能识别的归到所属的 App 下面，并保留记录。
 
 ### App Footprint 会上传我的数据吗？
 
@@ -40,7 +45,7 @@ image: /assets/background-zh-Hans.jpg
 
 ### 和「活动监视器」有什么不同？
 
-「活动监视器」列的是进程。App Footprint 尽量说出每个进程属于哪个 App，保留历史记录让你在卡顿之后还能回看，并且把可能的原因和对应的证据一条条列出来。
+「活动监视器」显示的是此刻在运行的进程，「能耗」标签页会把一部分进程归到 App 下面。App Footprint 尽量说出每个进程属于哪个 App，保留历史记录让你在卡顿之后还能回看，并且把可能的原因和对应的证据一条条列出来。
 
 ### 它是清理软件或者杀毒软件吗？
 
@@ -53,6 +58,12 @@ image: /assets/background-zh-Hans.jpg
 ### 能看温度和风扇转速吗？
 
 App Store 版在沙盒里读不到这些数据。可以另外装免费的 App Footprint Sensors，补上温度、风扇转速和每个进程的磁盘读写（见下面的「支持」）。
+
+## 文章
+
+- [怎么看 Mac 后台在运行什么](guides/see-background-apps-mac/)
+- [活动监视器里的 Helper 进程是什么](guides/helper-processes-activity-monitor/)
+- [Mac 没开 App 风扇也在转？怎么查是谁在占 CPU](guides/mac-fan-running-no-apps/)
 
 ## 支持
 
